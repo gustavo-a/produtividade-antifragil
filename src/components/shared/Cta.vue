@@ -1,11 +1,12 @@
 <template>
   <div class="inline-flex">
     <a
-      class="border-cafe-verde-amarelado text-white rounded font-serif italic flex"
+      class="border-cafe-verde-amarelado text-white rounded font-sans-secondary italic flex"
       v-if="link"
       :class="{
         'bg-cafe-verde-amarelado': filled === 'bege',
         'bg-guten-cinza-1': filled === 'cinza-1',
+        'py-3 px-4': size === 'sm',
         'p-4': size === 'md',
         'py-4 px-8': size === 'lg',
         border: border
@@ -16,7 +17,7 @@
     </a>
 
     <div
-      class="border-cafe-verde-amarelado text-white rounded font-serif italic cursor-pointer"
+      class="border-cafe-verde-amarelado text-white rounded font-sans-secondary italic cursor-pointer"
       v-else
       :class="{
         'bg-cafe-verde-amarelado': filled === 'bege',

@@ -6,7 +6,7 @@
           <div class="flex pt-48 sm:pt-32 pb-10 sm:pb-20">
             <div class="w-full md:w-2/3 lg:w-1/2 px-8 md:px-4">
               <h1
-                class="text-cafe-verde-amarelado italic font-serif text-2xl md:text-4xl"
+                class="text-cafe-verde-amarelado italic font-sans-secondary text-2xl md:text-4xl"
               >
                 Webinar exclusivo para patronos sobre a Primeira Guerra Mundial.
               </h1>
@@ -184,7 +184,7 @@ export default {
 
 .title-1,
 .title-2 {
-  @apply .font-serif .text-cafe-verde-amarelado .italic;
+  @apply .font-sans-secondary .text-cafe-ardosia;
 }
 
 .title-1 {
@@ -192,7 +192,7 @@ export default {
 
   &::after {
     content: '';
-    @apply .block .bg-cafe-verde-amarelado .m-auto .mt-6;
+    @apply .block .bg-cafe-ardosia .m-auto .mt-6;
     height: 5px;
     width: 125px;
   }

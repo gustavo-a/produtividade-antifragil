@@ -5,7 +5,7 @@
         <div class="text-center">
           <p
             style="font-size: calc(30px + 10vw)"
-            class="font-serif text-cafe-verde-amarelado"
+            class="font-sans-secondary text-cafe-verde-amarelado"
           >
             404
           </p>
@@ -123,7 +123,7 @@ export default {
 }
 
 .quote {
-  @apply .text-cafe-verde-amarelado .font-serif .text-4xl .italic .relative .inline;
+  @apply .text-cafe-verde-amarelado .font-sans-secondary .text-4xl .italic .relative .inline;
 
   &::before,
   &::after {
@@ -167,7 +167,7 @@ ul.lista {
 
 .title-1,
 .title-2 {
-  @apply .font-serif .text-cafe-verde-amarelado .italic;
+  @apply .font-sans-secondary .text-cafe-ardosia;
 }
 
 .title-1 {
@@ -175,7 +175,7 @@ ul.lista {
 
   &::after {
     content: '';
-    @apply .block .bg-cafe-verde-amarelado .m-auto .mt-6;
+    @apply .block .bg-cafe-ardosia .m-auto .mt-6;
     height: 5px;
     width: 125px;
   }

@@ -10,7 +10,9 @@
         >
           <Work class="m-auto mb-4" />
           <span>Você investe apenas:</span>
-          <div class="grid font-serif text-cafe-verde-amarelado my-4 italic">
+          <div
+            class="grid font-sans-secondary text-cafe-verde-amarelado my-4 italic"
+          >
             <div class="text-2xl">10x de</div>
             <div class="text-5xl">R$ 34,00</div>
           </div>

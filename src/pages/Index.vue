@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="bg-cafe-meia-noite">
-      <section class="bg-flavio-wrapper flex">
-        <div class="container pb-12 bg-flavio mt-auto">
+      <section class="bg-luciano-wrapper flex">
+        <div class="container pb-12 bg-luciano mt-auto">
           <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
             <div class="w-full md:w-2/3 lg:w-2/5 px-8 md:px-4">
               <div class="quote">
@@ -44,7 +44,7 @@
     </div>
     <section class="bg-cafe-meia-noite pt-16 pb-8">
       <div class="container">
-        <div class="flex flex-wrap text-white font-serif">
+        <div class="flex flex-wrap text-white font-sans-secondary">
           <div class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex">
             <div class="w-1/3 flex justify-center"><Work /></div>
             <div class="w-2/3 self-center md:self-start">
@@ -276,25 +276,20 @@ export default {
 </script>
 
 <style lang="scss">
-.bg-flavio {
-  /* background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.1) 50%,
-      rgba(30, 30, 30, 0.8)
-    ), */
-  // url('../assets/images/flavio-bg.png') no-repeat center right;
-  background-size: contain;
+.bg-luciano {
+  background: url('../assets/images/imagem_hero.png') no-repeat center right;
+  background-size: cover;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 
-  @media (max-width: 1300px) {
+  /* @media (max-width: 1300px) {
     background: none;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-  }
+  } */
 }
 
-.bg-flavio-wrapper {
+.bg-luciano-wrapper {
   @media (max-width: 1300px) {
     /* background: linear-gradient(
         to bottom,
@@ -380,7 +375,7 @@ ul.lista {
 
 .title-1,
 .title-2 {
-  @apply .font-serif .text-cafe-verde-amarelado .italic;
+  @apply .font-sans-secondary .text-cafe-ardosia;
 }
 
 .title-1 {
@@ -388,7 +383,7 @@ ul.lista {
 
   &::after {
     content: '';
-    @apply .block .bg-cafe-verde-amarelado .m-auto .mt-6;
+    @apply .block .bg-cafe-ardosia .m-auto .mt-6;
     height: 5px;
     width: 125px;
   }

@@ -103,7 +103,7 @@ export default {
       &::before {
         counter-increment: number;
         content: counter(number);
-        @apply .absolute .right-0 .left-0 .m-auto .block .text-center .text-white .bg-cafe-verde-amarelado .text-2xl .rounded-full .font-serif;
+        @apply .absolute .right-0 .left-0 .m-auto .block .text-center .text-white .bg-cafe-verde-amarelado .text-2xl .rounded-full .font-sans-secondary;
         width: 36px;
         height: 36px;
       }
@@ -166,7 +166,7 @@ export default {
   }
 
   .titulo {
-    @apply .font-serif .text-xl .italic .text-cafe-verde-amarelado;
+    @apply .font-sans-secondary .text-xl .italic .text-cafe-verde-amarelado;
   }
 
   .duracao {

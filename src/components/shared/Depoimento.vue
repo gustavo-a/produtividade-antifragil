@@ -15,7 +15,7 @@
         class="absolute p-4 bottom-0 h-full w-full flex flex-col justify-end depoimento__content"
       >
         <div
-          class="font-serif text-xl font-bold text-cafe-verde-amarelado italic"
+          class="font-sans-secondary text-xl font-bold text-cafe-verde-amarelado italic"
         >
           <slot name="nome" />
         </div>

@@ -44,7 +44,7 @@
           <div>
             <g-link
               to="/duvidas/"
-              class="text-cafe-verde-amarelado text-sm inline-flex border border-cafe-verde-amarelado rounded font-serif italic py-4 px-8 mr-6 leading-none"
+              class="text-cafe-verde-amarelado text-sm inline-flex border border-cafe-verde-amarelado rounded font-sans-secondary italic py-4 px-8 mr-6 leading-none"
             >
               Dúvidas
             </g-link>

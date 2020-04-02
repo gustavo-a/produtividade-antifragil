@@ -4,7 +4,7 @@
       <div class="flex justify-center px-4">
         <div class="w-full md:w-10/12 lg:w-8/12">
           <h1
-            class="text-4xl sm:text-5xl italic font-serif text-cafe-verde-amarelado"
+            class="text-4xl sm:text-5xl italic font-sans-secondary text-cafe-verde-amarelado"
           >
             Dúvidas
           </h1>

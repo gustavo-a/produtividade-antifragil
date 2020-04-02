@@ -9,10 +9,7 @@ if (process.isClient) {
 
   WebFont.load({
     google: {
-      families: [
-        'Merriweather:400,400i,700',
-        'Open+Sans:400,600,700&display=swap'
-      ]
+      families: ['Raleway:400,400i,700', 'Open+Sans:400,600,700&display=swap']
     }
   })
 }

@@ -1,7 +1,7 @@
 <template>
   <header class="bg-cafe-meia-noite">
     <div class="container">
-      <div class="flex flex-wrap justify-between pt-4">
+      <div class="flex flex-wrap justify-between py-4">
         <g-link to="/" class="sm:px-4 w-full sm:w-1/2" id="logo-header">
           <g-image
             quality="100"
@@ -11,12 +11,12 @@
             alt="Guten Morgen GO"
           />
         </g-link>
-        <div class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left">
+        <div class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left flex items-center">
           <call-to-action
             filled="bege"
             border
             link="https://hotm.art/tyUU3kJ"
-            size="md"
+            size="sm"
             class="sm:mx-2 text-sm sm:text-base"
           >
             Inscreva-se
@@ -25,7 +25,7 @@
           <call-to-action
             border
             link="http://membros.sensoincomum.org"
-            size="md"
+            size="sm"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
           >
             <User /> <span class="pl-3">Login</span>

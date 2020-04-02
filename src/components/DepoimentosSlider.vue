@@ -108,7 +108,7 @@ export default {
 }
 
 .controls {
-  @apply .absolute .bottom-0 .font-bold .cursor-pointer .text-cafe-verde-amarelado .text-3xl .font-serif;
+  @apply .absolute .bottom-0 .font-bold .cursor-pointer .text-cafe-verde-amarelado .text-3xl .font-sans-secondary;
 
   @media (max-width: 767px) {
   }
