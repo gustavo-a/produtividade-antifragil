@@ -254,14 +254,8 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"'
       ],
-      serif: [
-        'Merriweather',
-        'Georgia',
-        'Cambria',
-        '"Times New Roman"',
-        'Times',
-        'serif'
-      ],
+      'sans-secondary': ['Raleway'],
+      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
         'IBM Plex Mono',
         'Menlo',
