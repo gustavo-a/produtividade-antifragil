@@ -125,23 +125,6 @@ export default {
 .quote {
   @apply .text-cafe-verde-amarelado .font-sans-secondary .text-4xl .italic .relative .inline;
 
-  &::before,
-  &::after {
-    @apply .block .text-white .absolute;
-  }
-
-  &::before {
-    content: '“';
-    @apply .left-0;
-    transform: translate3d(-100%, 0, 0);
-  }
-
-  &::after {
-    content: '”';
-    @apply .right-0 .bottom-0;
-    transform: translate3d(100%, 0, 0);
-  }
-
   @media (max-width: 1024px) {
     @apply .text-3xl;
   }
