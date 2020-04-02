@@ -63,7 +63,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .bg-flavio {
   //background: linear-gradient(
   //  to bottom,
@@ -123,7 +123,7 @@ export default {
 }
 
 .quote {
-  @apply .text-cafe-verde-amarelado .font-sans-secondary .text-4xl .italic .relative .inline;
+  @apply .text-cafe-verde-amarelado .font-sans-secondary .text-4xl .relative .inline;
 
   @media (max-width: 1024px) {
     @apply .text-3xl;
