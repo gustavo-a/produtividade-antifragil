@@ -1,7 +1,7 @@
 <template>
   <div class="inline-flex">
     <a
-      class="border-cafe-verde-amarelado text-white rounded font-sans-secondary italic flex"
+      class="border-cafe-verde-amarelado text-white rounded font-sans-secondary flex"
       v-if="link"
       :class="{
         'bg-cafe-verde-amarelado': filled === 'bege',

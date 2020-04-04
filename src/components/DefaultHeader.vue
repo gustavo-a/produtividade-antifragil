@@ -1,6 +1,6 @@
 <template>
   <header class="bg-cafe-meia-noite">
-    <div class="container">
+    <div class="container bg-linha">
       <div class="flex flex-wrap justify-between py-4">
         <g-link to="/" class="sm:px-4 w-full sm:w-1/2" id="logo-header">
           <g-image
@@ -19,7 +19,7 @@
             size="sm"
             class="sm:mx-2 text-sm sm:text-base"
           >
-            Inscreva-se
+            <span class="text-cafe-ardosia">Inscreva-se</span>
           </call-to-action>
           <!-- http://membros.sensoincomum.org -->
           <call-to-action
@@ -28,7 +28,7 @@
             size="sm"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
           >
-            <User /> <span class="pl-3">Login</span>
+            <User /> <span class="pl-3 text-cafe-verde-amarelado">Login</span>
           </call-to-action>
         </div>
       </div>
@@ -54,5 +54,9 @@ export default {
   @media (max-width: 639px) {
     width: 200px;
   }
+}
+
+.bg-linha {
+  background: url('../assets/images/linha.png') no-repeat top right -6.6% / auto;
 }
 </style>

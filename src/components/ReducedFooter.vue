@@ -68,6 +68,6 @@ export default {
 
 <style lang="scss">
 footer {
-  background: #333;
+  background: #03072a;
 }
 </style>

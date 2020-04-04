@@ -92,7 +92,7 @@ export default {
     content: '';
     width: 3px;
     height: 75%;
-    background: rgba($color: #b29965, $alpha: 0.4);
+    background: rgba($color: #a4c546, $alpha: 0.4);
     @apply .block .absolute .m-auto .right-0 .left-0;
   }
   ol {
@@ -103,7 +103,7 @@ export default {
       &::before {
         counter-increment: number;
         content: counter(number);
-        @apply .absolute .right-0 .left-0 .m-auto .block .text-center .text-white .bg-cafe-verde-amarelado .text-2xl .rounded-full .font-sans-secondary;
+        @apply .absolute .right-0 .left-0 .m-auto .block .text-center .text-white .bg-cafe-ardosia .text-2xl .rounded-full .font-sans-secondary;
         width: 36px;
         height: 36px;
       }

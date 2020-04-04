@@ -35,8 +35,9 @@
               filled="bege"
               link="https://hotm.art/tyUU3kJ"
               size="lg"
+              class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >
-              <span class="pr-3">Inscreva-se</span> <RightArrow />
+              <span class="pr-3 font-bold">Inscreva-se</span> <RightArrow />
             </call-to-action>
           </div>
         </div>
@@ -201,6 +202,7 @@
     </section>
     <!-- Outras sessões -->
     <Modulos />
+    <BlocoCTA />
     <Depoimentos />
 
     <section class="py-32">
@@ -250,6 +252,7 @@ import Modulos from '~/components/Modulos'
 import Depoimentos from '~/components/Depoimentos'
 import Assine from '~/components/Assine'
 import Popup from '~/components/shared/Popup'
+import BlocoCTA from '~/components/BlocoCTA'
 
 import 'wysiwyg.css'
 
@@ -264,6 +267,7 @@ export default {
     'call-to-action': CTA,
     Modulos,
     Depoimentos,
+    BlocoCTA,
     Assine,
     Popup
   },
@@ -277,8 +281,8 @@ export default {
 
 <style lang="scss">
 .bg-luciano {
-  background: url('../assets/images/imagem_hero.png') no-repeat center right;
-  background-size: cover;
+  background: url('../assets/images/linha.png') no-repeat center right/auto,
+    url('../assets/images/imagem_hero.png') no-repeat center center/cover;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 
@@ -348,7 +352,7 @@ export default {
 }
 
 .quote {
-  @apply .text-white .font-sans .text-5xl .font-bold .relative .inline;
+  @apply .text-white .font-sans .text-5xl .font-semibold .relative .inline;
 
   @media (max-width: 1024px) {
     @apply .text-3xl;
@@ -379,7 +383,7 @@ ul.lista {
 }
 
 .title-1 {
-  @apply .text-3xl .text-center .relative;
+  @apply .text-3xl .text-center .relative .font-bold;
 
   &::after {
     content: '';

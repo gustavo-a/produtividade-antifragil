@@ -1,5 +1,8 @@
 <template>
-  <section id="depoimentos-section" class="bg-guten-gelo py-32 relative">
+  <section
+    id="depoimentos-section"
+    class="bg-cafe-meia-noite pt-10 pb-32 relative"
+  >
     <div class="container">
       <div class="flex justify-center mb-16">
         <h2 class="title-1">
@@ -87,11 +90,20 @@ export default {
 
 <style lang="scss">
 #depoimentos-section {
+  h2.title-1 {
+    @apply .text-white;
+
+    &::after {
+      @apply .bg-white;
+    }
+  }
+
   &::after {
     content: '';
     position: absolute;
     bottom: 0;
     right: 0;
+    transform: translateY(100%);
     left: 0;
     margin: auto;
     height: 5px;

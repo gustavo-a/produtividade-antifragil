@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 bg-cinza-branco">
+  <section class="py-16 bg-cinza-meia-noite">
     <div class="container">
       <div class="flex justify-center">
         <div
@@ -20,7 +20,7 @@
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >
-              <span class="pr-3">Inscreva-se</span> <RightArrow />
+              <span class="pr-3 font-bold">Inscreva-se</span> <RightArrow />
             </call-to-action>
           </div>
         </div>
@@ -43,14 +43,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.bg-cinza-branco {
-  background: linear-gradient(#fff 50%, #fbf8f7 50%);
+.bg-cinza-meia-noite {
+  background: linear-gradient(#fff 50%, #322153 50%);
 }
 
 .cta-bg {
-  // background: url('../assets/images/Grit03-byGhostlyPixels.png'),
-  // linear-gradient(#b29965, #b29965);
-  background-position: center, center;
-  background-size: cover;
+  background: url('../assets/images/linha.png') no-repeat center right -10%,
+    linear-gradient(#a4c546, #a4c546);
 }
 </style>

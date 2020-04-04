@@ -8,12 +8,12 @@
             width="360px"
             src="~/assets/images/logo.png"
           ></g-image>
-          <p class="pl-8 text-cafe-verde-amarelado">
-            © 2019 - Senso Incomum. Todos os direitos reservados. <br />
+          <p class="mt-8 text-cafe-verde-amarelado">
+            © 2020 - Café Brasil. Todos os direitos reservados. <br />
             Guten Morgen GO é uma realização de Farol Produções Artísticas Ltda.
             CNPJ: 06.227.644-0001/01.
           </p>
-          <div class="flex justify-start pl-8 mt-8">
+          <div class="flex justify-start mt-8">
             <a
               href="https://www.instagram.com/senso.incomum/"
               target="_blank"
@@ -83,6 +83,6 @@ export default {
 
 <style lang="scss">
 footer {
-  background: #333;
+  background: #03072a;
 }
 </style>
