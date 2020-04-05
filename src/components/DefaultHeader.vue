@@ -15,16 +15,16 @@
           <call-to-action
             filled="bege"
             border
-            link="https://hotm.art/tyUU3kJ"
+            link="https://hotm.art/oOizV2"
             size="sm"
             class="sm:mx-2 text-sm sm:text-base"
           >
             <span class="text-cafe-ardosia">Inscreva-se</span>
           </call-to-action>
-          <!-- http://membros.sensoincomum.org -->
+          <!-- http://membros.produtividadeantifragil.com.br -->
           <call-to-action
             border
-            link="http://membros.sensoincomum.org"
+            link="http://membros.produtividadeantifragil.com.br"
             size="sm"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
           >

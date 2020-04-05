@@ -33,7 +33,7 @@
           <div class="flex justify-start px-4">
             <call-to-action
               filled="bege"
-              link="https://hotm.art/tyUU3kJ"
+              link="https://hotm.art/oOizV2"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >
@@ -49,25 +49,31 @@
           <div class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex">
             <div class="w-1/3 flex justify-center"><Work /></div>
             <div class="w-2/3 self-center md:self-start">
-              Seja capaz de focar no seu futuro.
+              Tenha o olhar treinado para a busca sistemática e contínua pela
+              produtividade, independentemente de softwares, computadores ou
+              processos
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex">
             <div class="w-1/3 flex justify-center"><Work /></div>
             <div class="w-2/3 self-center md:self-start">
-              Aprenda de forma rápida e concisa
+              Aprenda a fazer mais com menos, criar sistemas resistentes e mudar
+              hábitos
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 px-4 my-4 lg:m-0 flex">
             <div class="w-1/3 flex justify-center"><Work /></div>
             <div class="w-2/3 self-center md:self-start">
-              Prepare-se para uma profunda transformação na sua visão de mundo.
+              Prepare-se para levar sua capacidade de produção individual ao
+              limite, sem depender de equipes, mantendo uma empresa enxuta, com
+              custos baixos e flexível conforme os tempos atuais exigem
             </div>
           </div>
           <div class="w-full md:w-1/2 lg:w-1/4 my-4 lg:m-0 px-4 flex">
             <div class="w-1/3 flex justify-center"><Work /></div>
             <div class="w-2/3 self-center md:self-start">
-              Mude sua postura diante do inesperado.
+              Conheça a produtividade antifrágil, a habilidade de sair das
+              crises melhor do que nelas entramos
             </div>
           </div>
         </div>
@@ -77,110 +83,34 @@
       <div class="container">
         <div class="md:w-2/3 xl:w-1/3 m-auto">
           <h2 class="title-1">
-            O que realmente faz diferença é o conhecimento
+            Produtividade começa com sua visão do mundo
           </h2>
         </div>
         <div class="flex justify-center">
           <div class="wysiwyg md:w-11/12 lg:w-2/3 my-16 mx-4 sm:mx-8">
             <p>
-              <b>
-                Quase todas as grandes questões do mundo atual têm uma origem
-                comum.
-              </b>
+              Antes de sair comprando softwares e computadores e desenvolver
+              habilidades práticas, é preciso preparar seu mindset para a
+              produtividade. É preciso ter um Olhar Produtivo. Produtividade
+              Antifrágil é um curso sem indicação de ferramentas, fórmulas
+              prontas ou aquelas fórmulas mágicas que dizem que "se ele pode,
+              você pode também". Não, nem sempre podemos.
             </p>
             <p>
-              Quando leio sobre questões políticas atuais, noto sempre que as
-              pessoas infelizmente não conhecem a origem de seus próprios
-              pensamentos – e, ainda mais, desconhecem a história que gerou o
-              que discutimos no mundo de hoje.
+              <b>PRODUTIVIDADE ANTIFRÁGIL</b> é essencial porque vem para
+              provocar você a rever conceitos, a mudar hábitos e se preparar
+              para os ciclos de queda e crescimento. O curso conta também com um
+              material de apoio único, que você não encontrará em nenhum outro
+              lugar. Mas vale cada segundo de seu esforço por consumi-lo.
             </p>
             <p>
-              Quer um exemplo? Estamos numa nova discussão política que parece
-              velha: o ressurgimento do nacionalismo, sobretudo contra o chamado
-              globalismo. Mas por que o nacionalismo voltou no século XXI? Qual
-              a sua origem? Por que o famoso nacionalismo alemão gerou tanto os
-              Irmãos Grimm quanto Adolf Hitler?
-            </p>
-            <p>
-              O nacionalismo teve seu grande ápice na Primeira Guerra Mundial,
-              quando um nacionalista sérvio-bósnio destruiu o sistema de
-              monarquias internacionais. E foi seu fim que criou os órgãos de
-              governança globalistas de hoje.
-            </p>
-            <p>
-              Pense nos problemas mundiais de agora. Oriente Médio? Os diversos
-              países da região passaram a existir – brigando entre si – quando o
-              Império Otomano ruiu após a revolta árabe, no fim da Primeira
-              Guerra. Intervenções americanas? A América abandonou o
-              isolacionismo... no meio da Primeira Guerra. Aliás, a Primeira
-              Guerra foi a primeira “guerra ao terror” – e foi quando o Ocidente
-              parou de admirar reis para vibrar com a democracia.
-            </p>
-            <p>
-              E nossas explicações para estes problemas? Marxismo? Virou
-              política de Estado com a Revolução Russa, no meio da Primeira
-              Guerra Mundial. Feminismo? A conquista do voto feminino foi no
-              fim... da Primeira Guerra. Estado laico? Ideologia? Novas formas
-              de família e de sexualidade? Adivinhe...
-            </p>
-            <p>
-              Há mais de 6 anos que venho estudando a fundo a Primeira Guerra
-              Mundial, e fico cada vez mais impressionado com o pouco que
-              sabemos de um conflito que definiu muito do que pensamos. É
-              dificílimo imaginar algo que estejamos discutindo no Facebook ou
-              no Twitter HOJE que não tenha tido sua origem, ou sua
-              materialização e expansão, justamente em um conflito que completou
-              100 anos há pouco.
-            </p>
-            <p>
-              Sempre quis criar algo que explicasse a fundo as idéias modernas –
-              o que está “por trás” de muitas das nossas discussões, que usam
-              palavras poderosas, mas vazias de sentido quando não sabemos seu
-              histórico. E percebi algo: boa parte do trabalho estava em
-              entender um conflito quase ignorado, sobretudo quando comparado à
-              Segunda Guerra. Mas, afinal, até o horror nazista só ocorreu...
-              por causa da Primeira Guerra Mundial.
-            </p>
-            <p>
-              Por isso preparei este curso: não é apenas para olhar para o
-              passado, mas para te ajudar a entender problemas de hoje, questões
-              que estão sendo discutidas agora – e vai desde a arte moderna até
-              o papel do Estado. Além de importante, certamente é emocionante!
-            </p>
-
-            <h3 class="title-2">
-              Garanto uma coisa pra você: vai ser transformador.
-            </h3>
-            <p>
-              <b>O Guten Morgen Go – Primeira Guerra Mundial</b> é um curso em
-              vídeo, áudio e textos sobre os efeitos duradouros da Grande Guerra
-              no mundo atual.
-            </p>
-            <p>
-              Não se trata meramente de um curso de história, e sim de uma
-              análise cultural sobre como esta guerra tão pouco estudada definiu
-              como o mundo seria atualmente.
-            </p>
-            <p>
-              É a Primeira Guerra que marca o triunfo hegemônico da democracia
-              sobre as antigas monarquias, o desencantamento da religião e da
-              tradição que permitiram a ascensão de visões de mundo seculares,
-              como o marxismo e a psicanálise, além da era do modernismo nas
-              artes e no pensamento – toda a tradição anterior passa a ser
-              ignorada e criticada, tratando-se o mais recente sempre como mais
-              válido do que o mais antigo.
-            </p>
-            <p>
-              Apesar de ignorada ao ser comparada com a Segunda Guerra, com o
-              horror do Holocausto e das bombas nucleares, foi a trágica e
-              eletrizante Primeira Guerra Mundial que delineou o mundo, os
-              conflitos, a política e as ideologias que marcam nosso pensamento
-              do século XX até os nossos dias.
-            </p>
-            <p>
-              Espero poder contar com você nessa jornada no Guten Morgen Go.
-              Aproveite o desconto promocional, clique no botão abaixo e
-              inscreva-se agora.
+              O curso é uma experiência imersiva, feito para você mergulhar mais
+              fundo, inclusive com a possibilidade de consumir livros que
+              indicarei e que em muitos casos, sequer estão disponíveis no
+              Brasil, mas que eu sumarizo de forma profunda e comentada. Você
+              pode escolher assistir as aulas em vídeo, em seguida ler os PDFs e
+              ouvir os podcasts como, quando e onde quiser, e assim se
+              desenvolver na direção do Olhar Produtivo.
             </p>
             <h3 class="title-2">
               As inscrições serão encerradas muito em breve. Então, não perca
@@ -191,11 +121,11 @@
         <div class="flex justify-center">
           <call-to-action
             filled="bege"
-            link="https://hotm.art/tyUU3kJ"
+            link="https://hotm.art/oOizV2"
             size="lg"
             class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >
-            <span class="pr-3">Inscreva-se</span> <RightArrow />
+            <span class="pr-3 font-bold">Inscreva-se</span> <RightArrow />
           </call-to-action>
         </div>
       </div>
@@ -352,7 +282,7 @@ export default {
 }
 
 .quote {
-  @apply .text-white .font-sans .text-5xl .font-semibold .relative .inline;
+  @apply .text-white .font-sans .text-5xl .font-bold .relative .inline .leading-tight;
 
   @media (max-width: 1024px) {
     @apply .text-3xl;
@@ -368,7 +298,7 @@ export default {
 }
 ul.lista {
   li {
-    list-style-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCA2IDYiPjxyZWN0IHdpZHRoPSI2IiBoZWlnaHQ9IjYiIGZpbGw9IiNiMjk5NjUiLz48L3N2Zz4=);
+    list-style-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHZpZXdCb3g9IjAgMCA2IDYiPjxyZWN0IHdpZHRoPSI2IiBoZWlnaHQ9IjYiIGZpbGw9IiNBNEM1NDYiLz48L3N2Zz4=);
     margin-bottom: 0.25rem;
   }
 }

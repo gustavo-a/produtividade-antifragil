@@ -10,12 +10,12 @@
           ></g-image>
           <p class="mt-8 text-cafe-verde-amarelado">
             © 2020 - Café Brasil. Todos os direitos reservados. <br />
-            Guten Morgen GO é uma realização de Farol Produções Artísticas Ltda.
-            CNPJ: 06.227.644-0001/01.
+            Produtividade Antifrágil é uma realização Café Brasil Editorial
+            Ltda. CNPJ: 05.809.981/0001-36.
           </p>
           <div class="flex justify-start mt-8">
             <a
-              href="https://www.instagram.com/senso.incomum/"
+              href="https://www.instagram.com/lucianopires/?hl=pt-br"
               target="_blank"
               class="pr-2"
               ><g-image
@@ -23,14 +23,17 @@
                 src="~/assets/images/Instagram.png"
               ></g-image
             ></a>
-            <a href="https://twitter.com/sensoinc" target="_blank" class="pr-2"
+            <a
+              href="https://twitter.com/lucianopires"
+              target="_blank"
+              class="pr-2"
               ><g-image
                 quality="100"
                 src="~/assets/images/Twitter.png"
               ></g-image
             ></a>
             <a
-              href="https://business.facebook.com/sensoincomumorg/"
+              href="https://www.facebook.com/luciano.pires/"
               target="_blank"
               class="pr-2"
               ><g-image
@@ -49,7 +52,7 @@
               Dúvidas
             </g-link>
             <call-to-action
-              link="http://membros.sensoincomum.org"
+              link="http://membros.produtividadeantifragil.com.br"
               size="lg"
               border
             >

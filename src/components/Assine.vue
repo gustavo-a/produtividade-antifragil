@@ -14,9 +14,9 @@
             class="grid font-sans-secondary text-cafe-verde-amarelado my-4 italic"
           >
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 34,00</div>
+            <div class="text-5xl">R$ 18,90</div>
           </div>
-          <span>Total:R$340,00</span>
+          <span>Total:R$189,00</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold">
@@ -39,7 +39,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            link="https://hotm.art/tyUU3kJ"
+            link="https://hotm.art/oOizV2"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >
