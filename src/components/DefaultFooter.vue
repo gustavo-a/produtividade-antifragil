@@ -1,7 +1,7 @@
 <template>
   <footer class="py-12">
     <div class="container">
-      <div class="flex flex-wrap justify-between">
+      <div class="flex flex-wrap justify-between px-4">
         <div class="lg:w-1/2 xl:w-2/5">
           <g-image
             quality="100"

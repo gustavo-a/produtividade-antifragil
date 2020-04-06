@@ -1,5 +1,5 @@
 <template>
-  <section class="py-32 bg-guten-gelo">
+  <section class="py-32 bg-cafe-meia-noite">
     <div class="container">
       <div class="flex justify-center">
         <div class="w-5/6 lg:w-2/3 xl:w-1/2 relative">
@@ -8,55 +8,56 @@
               <ul class="glide__slides">
                 <li class="glide__slide">
                   <p class="title-2">
-                    “Devo muito do meu conhecimento e da minha carreira na
-                    política ao que aprendi com o Flavio Morgenstern. Fiz a
-                    minha inscrição no Guten Morgen Go e estou ansioso para
-                    iniciar o programa.”
+                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Temporibus dicta unde sit minus. Repellat incidunt quis
+                    tempora ratione, ad nemo doloribus quos. Nulla voluptatum
+                    illo modi autem facilis, dolore quos!”
                   </p>
                   <div class="text-center mt-8">
-                    <div class="font-bold">Eduardo Bolsonaro</div>
-                    <div>Deputado Federal (Aliança-SP).</div>
+                    <div class="font-bold text-white">Fulano de Tal</div>
+                    <div class="text-white">Empresário de sucesso</div>
                   </div>
                 </li>
                 <li class="glide__slide">
                   <p class="title-2">
-                    “O Flavio está sendo um dos caras mais importantes para o
-                    processo de elevação do debate político que vem ocorrendo no
-                    Brasil. Vale a pena aprender com ele. Estou dentro!”
+                    “Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+                    labore consequatur ad qui, molestias minus minima quidem
+                    doloribus laudantium blanditiis accusamus. Quaerat quia
+                    suscipit officiis distinctio possimus natus, aspernatur
+                    ipsam.”
                   </p>
                   <div class="text-center mt-8">
-                    <div class="font-bold">Bene Barbosa</div>
-                    <div>
-                      Analista de segurança, articulista, palestrante, IAT e
-                      autor do best-seller “Mentiram Para Mim Sobre o
-                      Desarmamento
+                    <div class="font-bold text-white">Fulano de Tal</div>
+                    <div class="text-white">
+                      Palestrante
                     </div>
                   </div>
                 </li>
                 <li class="glide__slide">
                   <p class="title-2">
-                    “Sensacional essa ideia de fazer um curso sobre a Primeira
-                    Guerra! Meu xará é muito bom! Já vi uma prévia do conteúdo e
-                    posso dar um pequeno spoiler: vai ser épico!”
+                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Saepe, itaque ut! Iure rerum optio omnis rem! Doloribus
+                    totam officia excepturi laborum quibusdam repellendus sint
+                    dicta harum adipisci est. Pariatur, recusandae!”
                   </p>
                   <div class="text-center mt-8">
-                    <div class="font-bold">Flávio Gordon</div>
-                    <div>
-                      Escritor, autor do best-seller “A corrupção da
-                      Inteligência”.
+                    <div class="font-bold text-white">Fulano de Tal</div>
+                    <div class="text-white">
+                      Economista
                     </div>
                   </div>
                 </li>
                 <li class="glide__slide">
                   <p class="title-2">
-                    “Só digo uma coisa: esse é o projeto da vida do Flavio. Não
-                    percam por nada!”
+                    “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt vitae a molestiae odio dolores? Molestias doloribus
+                    fugit sint, sit, facere ipsam velit assumenda atque iste
+                    corrupti voluptatum officiis itaque quisquam.”
                   </p>
                   <div class="text-center mt-8">
-                    <div class="font-bold">Filipe Martins</div>
-                    <div>
-                      Assessor Especial da Presidência da República para
-                      Assuntos Internacionais
+                    <div class="font-bold text-white">Fulano de Tal</div>
+                    <div class="text-white">
+                      Escritor
                     </div>
                   </div>
                 </li>
@@ -104,7 +105,7 @@ export default {
 
 <style lang="scss" scoped>
 .title-2 {
-  @apply .text-center;
+  @apply .text-center .text-white .font-semibold;
 }
 
 .controls {

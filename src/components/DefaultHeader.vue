@@ -2,7 +2,7 @@
   <header class="bg-cafe-meia-noite">
     <div class="container bg-linha">
       <div class="flex flex-wrap justify-between py-4">
-        <g-link to="/" class="sm:px-4 w-full sm:w-1/2" id="logo-header">
+        <g-link to="/" class="px-4 w-full sm:w-1/2" id="logo-header">
           <g-image
             quality="100"
             height="60"
@@ -11,7 +11,10 @@
             alt="Guten Morgen GO"
           />
         </g-link>
-        <div class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left flex items-center">
+        <div
+          class="pr-2 sm:px-4 ml-auto sm:ml-0 text-left grid sm:flex items-center"
+          style="grid-gap: 5px"
+        >
           <call-to-action
             filled="bege"
             border
@@ -27,6 +30,7 @@
             link="http://membros.produtividadeantifragil.com.br"
             size="sm"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
+            style="display:contents"
           >
             <User /> <span class="pl-3 text-cafe-verde-amarelado">Login</span>
           </call-to-action>
@@ -57,6 +61,23 @@ export default {
 }
 
 .bg-linha {
-  background: url('../assets/images/linha.png') no-repeat top right -6.6% / auto;
+  background: url('../assets/images/linha.png') no-repeat top right -7.6% / auto;
+
+  @media (max-width: 1279px) {
+    background: url('../assets/images/linha.png') no-repeat top right -9.6% / auto;
+  }
+
+  @media (width: 1024px) {
+    background: url('../assets/images/linha.png') no-repeat top right -15.155% /
+      auto;
+  }
+
+  @media (max-width: 1023px) {
+    background: url('../assets/images/linha.png') no-repeat top right -30.75% / auto;
+  }
+
+  @media (max-width: 767px) {
+    background: none;
+  }
 }
 </style>

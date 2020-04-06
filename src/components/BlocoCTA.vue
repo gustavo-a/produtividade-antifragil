@@ -6,7 +6,7 @@
           class="w-11/12 md:w-5/6 flex flex-wrap px-4 sm:px-16 py-20 items-center justify-between cta-bg rounded-lg"
         >
           <div class="w-full md:w-1/2 mb-8 md:mb-0">
-            <p class="text-white font-sans-secondary text-2xl">
+            <p class="text-cafe-ardosia font-sans-secondary text-2xl">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
               suscipit harum.
             </p>
