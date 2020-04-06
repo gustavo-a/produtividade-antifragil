@@ -190,7 +190,7 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Conheça a guerra que mudou tudo!'
+    title: 'Como aumentar sua performance em meio a adversidades'
   },
   components: {
     PlayButton,
