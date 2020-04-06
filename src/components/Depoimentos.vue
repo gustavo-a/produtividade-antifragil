@@ -11,19 +11,24 @@
       </div>
       <div class="flex flex-wrap justify-center md:justify-evenly">
         <Depoimento>
-          <template #imagem> </template>
+          <template #imagem>
+            <g-image
+              src="~/assets/images/Foto_Cerbasi1.jpg"
+              alt="Gustavo Cerbasi - Economista"
+            />
+          </template>
           <template #nome>
-            Roger Moreira
+            Gustavo Cerbasi
           </template>
           <template #descricao>
-            Músico
+            Economista
           </template>
           <template #conteudo>
             <div class="video-container">
               <iframe
                 width="956"
                 height="538"
-                src="https://www.youtube.com/embed/qZrMtcKNVSk"
+                src="https://www.youtube.com/embed/J41n4b_JWy0"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
@@ -32,19 +37,24 @@
           </template>
         </Depoimento>
         <Depoimento>
-          <template #imagem> </template>
+          <template #imagem>
+            <g-image
+              src="~/assets/images/Adalberto-Piotto.jpg"
+              alt="Adalberto Piotto - Jornalista"
+            />
+          </template>
           <template #nome>
-            Rodrigo Gurgel
+            Adalberto Piotto
           </template>
           <template #descricao>
-            Crítico literário
+            Jornalista
           </template>
           <template #conteudo>
             <div class="video-container">
               <iframe
                 width="956"
                 height="538"
-                src="https://www.youtube.com/embed/KVoMZQRuoAk"
+                src="https://www.youtube.com/embed/y9KF8VuPXhM"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
