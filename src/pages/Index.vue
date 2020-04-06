@@ -145,25 +145,13 @@
         </div>
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-1/2 px-4">
-            <ul class="lista">
-              <li>Advogados</li>
-              <li>Publicitários e Marketeiros</li>
-              <li>Juristas</li>
-              <li>Políticos e pessoas que trabalham com política</li>
-              <li>Psicólogos</li>
-              <li>Empresários</li>
-              <li>Estudantes</li>
-            </ul>
-          </div>
-          <div class="w-full md:w-1/2 px-4">
-            <ul class="lista">
-              <li>Donas de casa</li>
-              <li>Aposentados</li>
-              <li>Jornalistas</li>
-              <li>Vendedores</li>
-              <li>Funcionários Públicos</li>
-              <li>Cidadãos brasileiros interessados em melhorar o Brasil.</li>
-            </ul>
+            <div class="wysiwyg">
+              <p class="text-center">
+                Qualquer pessoa preocupada em ampliar sua capacidade de
+                execução, em melhorar continuamente e aumentar a velocidade de
+                suas decisões e performance, sem perder a qualidade.
+              </p>
+            </div>
           </div>
         </div>
       </div>
