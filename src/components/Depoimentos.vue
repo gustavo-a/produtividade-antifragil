@@ -65,17 +65,17 @@
         <Depoimento>
           <template #imagem> </template>
           <template #nome>
-            Bene Barbosa
+            Lorem, ipsum.
           </template>
           <template #descricao>
-            Especialista em segurança pública
+            Lorem, ipsum dolor.
           </template>
           <template #conteudo>
             <div class="video-container">
               <iframe
                 width="956"
                 height="538"
-                src="https://www.youtube.com/embed/kWMBBvESvA4"
+                src="https://www.youtube.com/embed/ScMzIvxBSi4"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
