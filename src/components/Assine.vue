@@ -20,21 +20,27 @@
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold">
-            Esse é o mais valioso e completo curso online sobre a Primeira
-            Guerra Mundial já produzido.
+            Um curso sobre Produtividade como você nunca viu igual, garanto.
+            Completo, imersivo, profundo e com material de apoio que em sua
+            maior parte você não encontra aqui no Brasil.
           </p>
           <ul class="lista">
-            <li>Mais de 30% de desconto.</li>
-            <li>Acesso ilimitado por 12 meses (vitalício para patronos).</li>
-            <li>Espaço para perguntas e respostas.</li>
-            <li>Aulas ao vivo com Flavio Morgenstern.</li>
+            <li>80% de desconto para a primeira turma</li>
             <li>
-              Metodologia didática que permite aprendizado profundo, num curto
-              espaço de tempo.
+              Acesso ilimitado por 12 meses (vitalício para os assinantes do CB
+              Premium)
             </li>
             <li>
-              Oportunidade de adquirir conhecimentos que vão transformar a sua
-              visão de mundo
+              Grupo exclusivo no telegram para perguntas, respostas e troca de
+              ideias em relação ao tema
+            </li>
+            <li>Aulas ao vivo com o Luciano Pires</li>
+            <li>
+              Forma interativa que permite aplicação de imediato no dia a dia
+            </li>
+            <li>
+              Oportunidade de adquirir novos hábitos e habilidades que vão
+              transformar sua visão de mundo e maneira de fazer e consumir.
             </li>
           </ul>
           <call-to-action

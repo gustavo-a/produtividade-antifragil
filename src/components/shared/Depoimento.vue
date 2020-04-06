@@ -56,8 +56,9 @@ export default {
   &__content {
     background: linear-gradient(
       180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0.7) 80%
+      rgba($color: #322153, $alpha: 0.1) 0%,
+      rgba($color: #322153, $alpha: 0.7) 60%,
+      rgba($color: #322153, $alpha: 1) 90%
     );
   }
 }

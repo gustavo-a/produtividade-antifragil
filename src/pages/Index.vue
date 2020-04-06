@@ -65,7 +65,7 @@
             <div class="w-1/3 flex justify-center"><Work /></div>
             <div class="w-2/3 self-center md:self-start">
               Prepare-se para levar sua capacidade de produção individual ao
-              limite, sem depender de equipes, mantendo uma empresa enxuta, com
+              limite, sozinho ou em equipe, mantendo uma empresa enxuta, com
               custos baixos e flexível conforme os tempos atuais exigem
             </div>
           </div>
