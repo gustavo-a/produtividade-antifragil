@@ -63,19 +63,24 @@
           </template>
         </Depoimento>
         <Depoimento>
-          <template #imagem> </template>
+          <template #imagem>
+            <g-image
+              src="~/assets/images/dado-schneider.jpg"
+              alt="Dado Schneider - Palestrante"
+            />
+          </template>
           <template #nome>
-            Lorem, ipsum.
+            Dado Schneider
           </template>
           <template #descricao>
-            Lorem, ipsum dolor.
+            Escritor e Palestrante
           </template>
           <template #conteudo>
             <div class="video-container">
               <iframe
                 width="956"
                 height="538"
-                src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                src="https://www.youtube.com/embed/OjkP_Kibylk"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
