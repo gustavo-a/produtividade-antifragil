@@ -3,8 +3,8 @@
     <div class="bg-cafe-meia-noite">
       <section class="bg-luciano-wrapper flex">
         <div class="container pb-12 bg-luciano mt-auto">
-          <div class="flex pt-24 sm:pt-32 pb-10 sm:pb-20">
-            <div class="w-2/3 lg:w-2/5 px-4">
+          <div class="flex pt-8 md:pt-32 pb-8 md:pb-20">
+            <div class="sm:w-2/3 lg:w-2/5 px-4">
               <div class="quote">
                 Como aumentar a sua performance em meio a adversidades.
               </div>
@@ -30,7 +30,7 @@
               </button>
             </div>
           </div>
-          <div class="flex justify-start px-4">
+          <div class="flex justify-start mb-32 md:mb-0 md:mt-0 px-4">
             <call-to-action
               filled="bege"
               link="https://hotm.art/oOizV2"
@@ -79,7 +79,7 @@
         </div>
       </div>
     </section>
-    <section class="pt-20 pb-16">
+    <section class="pt-20 pb-32">
       <div class="container">
         <div class="md:w-2/3 xl:w-1/3 m-auto">
           <h2 class="title-1">
@@ -87,7 +87,9 @@
           </h2>
         </div>
         <div class="flex justify-center">
-          <div class="wysiwyg md:w-11/12 lg:w-2/3 my-16 mx-4 sm:mx-8">
+          <div
+            class="wysiwyg md:w-11/12 lg:w-2/3 my-16 mx-4 sm:mx-8 text-justify"
+          >
             <p>
               Antes de sair comprando softwares e computadores e desenvolver
               habilidades práticas, é preciso preparar seu mindset para a
@@ -216,8 +218,8 @@ export default {
 
 .bg-luciano-wrapper {
   @media (max-width: 767px) {
-    background: url('../assets/images/linha.png') no-repeat center right/auto,
-      url('../assets/images/imagem_hero.png') no-repeat bottom center/contain;
+    background: url('../assets/images/imagem_hero.png') no-repeat bottom
+      center/contain;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
