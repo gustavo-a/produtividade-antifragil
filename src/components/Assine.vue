@@ -27,7 +27,7 @@
           <ul class="lista">
             <li>80% de desconto para a primeira turma</li>
             <li>
-              Acesso ilimitado por 12 meses (vitalício para os assinantes do CB
+              Acesso ilimitado por 24 meses (vitalício para os assinantes do CB
               Premium)
             </li>
             <li>

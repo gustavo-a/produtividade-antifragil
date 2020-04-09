@@ -18,8 +18,7 @@
             <li>
               <b>Qual a duração do curso?</b><br />
               <p>
-                O curso sobre a primeira guerra terá 16 semanas (4 módulos) de
-                duração. A cada semana serão lançados três vídeos.
+                O curso sobre terá 5 semanas de duração.
               </p>
             </li>
 
@@ -43,18 +42,18 @@
               <b>Poderei fazer perguntas? Terei alguma participação ativa?</b
               ><br />
               <p>
-                Sim. Uma vez a cada módulo (4 semanas), Flavio Morgenstern fará
-                uma aula ao vivo respondendo às perguntas enviadas pelos alunos.
+                Sim. Uma vez a cada módulo (5 semanas), Luciano Pires fará uma
+                live respondendo às perguntas enviadas pelos alunos.
               </p>
             </li>
 
             <li>
               <b>O curso tem horário fixo?</b><br />
               <p>
-                Não. Enviaremos os vídeos semanalmente e você os assiste no seu
-                ritmo. Apenas a aula mensal será feita em horário pré agendado,
-                ao vivo. Mesmo assim ela ficará disponível para quem não
-                conseguiu assistir na hora.
+                Não. Enviaremos os conteúdos semanalmente e você os assiste no
+                seu ritmo. Apenas a live semanal será feita em horário pré
+                agendado, ao vivo. Mesmo assim ela ficará disponível para quem
+                não conseguiu assistir na hora.
               </p>
             </li>
 
@@ -62,18 +61,41 @@
               <b>Preciso de algum conhecimento prévio para fazer o curso?</b
               ><br />
               <p>
-                Não. Claro que um pouco de cultura geral é sempre bem vinda, mas
-                nada que atrapalhe o entendimento do curso.
+                Não.
+              </p>
+            </li>
+
+            <li>
+              <b>
+                Qual a melhor forma de contato para dúvidas técnicas, problemas
+                de acesso e cobrança?</b
+              ><br />
+              <p>
+                O email cursos@lucianopires.com.br é o melhor canal de contato
+                para isso.
               </p>
             </li>
 
             <li>
               <b
-                >Qual a melhor forma de contato para dúvidas técnicas, problemas
-                de acesso e cobrança?</b
+                >Estou tendo dificuldades com a plataforma. Onde consigo
+                ajuda?</b
               ><br />
               <p>
-                O email cursos@pane.la é o melhor canal de contato para isso.
+                Estamos utilizando a plataforma da Hotmart para hospedar o
+                curso. Em caso de dúvidas sobre o acesso ao curso, procure
+                orientação
+                <a
+                  class="text-cafe-meia-noite underline font-bold"
+                  href="https://atendimento.hotmart.com.br/hc/pt-br/sections/115000600691-Como-acessar-meu-produto"
+                  >nesta seção</a
+                >. Se nenhum dos artigos no link anterior te ajudar, envie uma
+                solicitação de ajuda para o suporte da Hotmart
+                <a
+                  class="text-cafe-meia-noite underline font-bold"
+                  href="https://atendimento.hotmart.com.br/hc/pt-br/requests/new"
+                  >neste link</a
+                >.
               </p>
             </li>
           </ol>
