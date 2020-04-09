@@ -131,6 +131,7 @@
       </div>
     </section>
     <!-- Outras sessões -->
+    <Autor />
     <Modulos />
     <BlocoCTA />
     <Depoimentos />
@@ -166,6 +167,7 @@ import RightArrow from '~/assets/images/right-arrow.svg'
 import Work from '~/assets/images/work.svg'
 import CTA from '~/components/shared/Cta'
 
+import Autor from '~/components/Autor'
 import Modulos from '~/components/Modulos'
 import Depoimentos from '~/components/Depoimentos'
 import Assine from '~/components/Assine'
@@ -184,6 +186,7 @@ export default {
     Work,
     'call-to-action': CTA,
     Modulos,
+    Autor,
     Depoimentos,
     BlocoCTA,
     Assine,
