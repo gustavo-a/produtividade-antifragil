@@ -25,8 +25,8 @@
             <li>
               <b>Qual o prazo para concluir o curso?</b><br />
               <p>
-                O curso ficará disponível na plataforma online até 2022. Você
-                pode fazê-lo no ritmo que preferir.
+                O curso ficará disponível na plataforma online por 12 meses.
+                Você pode fazê-lo no ritmo que preferir.
               </p>
             </li>
 
