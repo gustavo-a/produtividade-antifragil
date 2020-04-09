@@ -14,9 +14,9 @@
             <li>
               <div class="content">
                 <div class="titulo">
-                  Lorem ipsum dolor sit amet.
+                  É a produtividade, estúpido!
                 </div>
-                <div class="duracao">12 horas</div>
+                <div class="duracao">3 horas</div>
                 <div class="descricao">
                   1. A definição de Produtividade <br />
                   A cadeia da Produtividade Produtividade como resultante da
@@ -39,9 +39,9 @@
             <li>
               <div class="content">
                 <div class="titulo">
-                  Lorem ipsum dolor sit amet.
+                  O Olhar Produtivo
                 </div>
-                <div class="duracao">12 horas</div>
+                <div class="duracao">2 horas</div>
                 <div class="descricao">
                   5. As doenças da produtividade <br />
                   Os problemas de visão de mundo que impactam diretamente em
@@ -59,9 +59,9 @@
             <li>
               <div class="content">
                 <div class="titulo">
-                  Lorem ipsum dolor sit amet consectetur.
+                  Faça mais com menos
                 </div>
-                <div class="duracao">12 horas</div>
+                <div class="duracao">2 horas</div>
                 <div class="descricao">
                   8. Sobre sistemas <br />
                   A diferença entre métodos, processos e sistemas <br /><br />
@@ -78,9 +78,9 @@
             <li>
               <div class="content">
                 <div class="titulo">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing.
+                  Produtividade é a arte de dizer não
                 </div>
-                <div class="duracao">12 horas</div>
+                <div class="duracao">3 horas</div>
                 <div class="descricao">
                   11. Sobre gastar Tempo <br />
                   Como você gasta seu tempo de vida? <br /><br />
@@ -107,9 +107,9 @@
             <li>
               <div class="content">
                 <div class="titulo">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing.
+                  Todo mundo é incompetente, inclusive você
                 </div>
-                <div class="duracao">12 horas</div>
+                <div class="duracao">3 horas</div>
                 <div class="descricao">
                   16. Ensaio sobre a incompetência <br />
                   Todo mundo é incompetente, inclusive você<br />
@@ -159,7 +159,7 @@ export default {
   &::before {
     content: '';
     width: 3px;
-    height: 75%;
+    height: 74%;
     background: rgba($color: #a4c546, $alpha: 0.4);
     @apply .block .absolute .m-auto .right-0 .left-0;
   }
