@@ -32,8 +32,8 @@
                   Uma reflexão sobre conceitos e desafios para a produtividade
                   com foco em nossa produtividade tupiniquim <br /><br />
                   Bônus – Antecipação do módulo 20<br /><br />
-                  Produtividade no Home Office Dicas práticas para quem se vê
-                  diante do desafio de trabalhar remotamente
+                  Produtividade no Home Office <br />Dicas práticas para quem se
+                  vê diante do desafio de trabalhar remotamente
                 </div>
               </div>
             </li>
