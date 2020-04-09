@@ -131,7 +131,6 @@
       </div>
     </section>
     <!-- Outras sessões -->
-    <DepoimentosSlider />
     <Modulos />
     <BlocoCTA />
     <Depoimentos />
@@ -169,7 +168,6 @@ import CTA from '~/components/shared/Cta'
 
 import Modulos from '~/components/Modulos'
 import Depoimentos from '~/components/Depoimentos'
-import DepoimentosSlider from '~/components/DepoimentosSlider'
 import Assine from '~/components/Assine'
 import Popup from '~/components/shared/Popup'
 import BlocoCTA from '~/components/BlocoCTA'
@@ -187,7 +185,6 @@ export default {
     'call-to-action': CTA,
     Modulos,
     Depoimentos,
-    DepoimentosSlider,
     BlocoCTA,
     Assine,
     Popup
