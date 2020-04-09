@@ -19,9 +19,9 @@
           <span>Por apenas:</span>
           <div class="grid font-sans-secondary text-cafe-verde-amarelado my-4">
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 22,90</div>
+            <div class="text-5xl">R$ 23,45</div>
           </div>
-          <span>Total:R$229,00</span>
+          <span>Total:R$234,50</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold">
@@ -40,7 +40,10 @@
               Grupo exclusivo no Telegram para perguntas, respostas e troca de
               ideias em relação ao tema
             </li>
-            <li>Live semanal com o autor Luciano Pires</li>
+            <li>
+              Live semanal durante a duração do curso, com o autor Luciano
+              Pires.
+            </li>
             <li>
               Forma interativa que permite consumo em vídeo, áudio ou texto,
               quando, onde, como e quanto você quiser

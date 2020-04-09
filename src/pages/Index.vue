@@ -142,7 +142,7 @@
       <div class="container px-4">
         <div class="flex justify-center mb-16">
           <h2 class="title-1">
-            Quem vai se beneficiar desse conteúdo
+            Quem vai se beneficiar deste conteúdo
           </h2>
         </div>
         <div class="flex flex-wrap justify-center">

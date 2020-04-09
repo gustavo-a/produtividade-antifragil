@@ -32,7 +32,13 @@
               capacidade de julgamento e tomada de decisão, e neste curso aplica
               40 anos de experiência como executivo de multinacional,
               empreendedor, podcaster e muito mais. Conheça mais sobre o Luciano
-              em lucianopires.com.br
+              em
+              <a
+                class="text-cafe-verde-amarelado"
+                href="https://lucianopires.com.br"
+                target="_blank"
+                >lucianopires.com.br</a
+              >
             </p>
           </div>
         </div>

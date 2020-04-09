@@ -20,9 +20,10 @@
                 <div class="descricao">
                   1. A definição de Produtividade <br />
                   A cadeia da Produtividade Produtividade como resultante da
-                  relação Output/Input Indo além das planilhas <br /><br />
+                  relação Output/Input <br />
+                  Indo além das planilhas <br /><br />
                   2. O conceito Antifrágil <br />
-                  Sumário do livro homônimo de Nassim Nicholas Taleb
+                  Sumário comentado do livro homônimo de Nassim Nicholas Taleb
                   <br /><br />
                   3. O ciclo de destruição criativa <br />
                   Como a chegada das novas tecnologias destrói as antigas
@@ -30,7 +31,7 @@
                   4. Ensaio sobre a Produtividade <br />
                   Uma reflexão sobre conceitos e desafios para a produtividade
                   com foco em nossa produtividade tupiniquim <br /><br />
-                  Bônus – Antecipação do módulo 19<br /><br />
+                  Bônus – Antecipação do módulo 20<br /><br />
                   Produtividade no Home Office Dicas práticas para quem se vê
                   diante do desafio de trabalhar remotamente
                 </div>
@@ -48,7 +49,7 @@
                   nossa produtividade. O Olhar Produtivo – Uma proposta de visão
                   de mundo com foco na produtividade <br /><br />
                   6. O Podsumário The Leading Brain <br />
-                  O que aprendemos com estudos científicos, pode transformar
+                  O que aprendemos com estudos científicos pode transformar
                   radicalmente a forma como exercemos liderança e abrimos
                   caminho para o sucesso. <br /><br />
                   7. A Matriz Vhirpa <br />
@@ -91,7 +92,8 @@
                   13. Urgente ou Importante<br />
                   A diferença entre Urgente e Importante<br />
                   As matrizes Covey e Eisenhower, que ajudam a definir onde
-                  aplicar nossa energia e recursos<br /><br />
+                  aplicar nossa energia e recursos<br />Foco: o grande desafio
+                  da produtividade<br /><br />
 
                   14. A Matriz Carver<br />
                   A aplicação prática de um instrumento que os militares
@@ -112,18 +114,17 @@
                 <div class="duracao">3 horas</div>
                 <div class="descricao">
                   16. Ensaio sobre a incompetência <br />
-                  Todo mundo é incompetente, inclusive você<br />
                   A linha da consciência da competência<br /><br />
 
                   17. Praticando a introspectiva<br />
                   Uma revisão de nossas crenças e valores em busca de nossas
-                  forças e fraquezas<br />
+                  forças e fraquezas<br /><br />
 
                   18. Empenho e Desempenho<br />
                   A importância do alimento intelectual para desenvolver
                   discernimento e capacidade de julgamento e tomada de decisão,
-                  que estão na raiz da produtividade Mudança de Hábitos.
-                  <br /><br />
+                  que estão na raiz da produtividade <br />
+                  Mudança de Hábitos. <br /><br />
 
                   19. Podsumário Simplifique<br />
                   Como os melhores negócios do mundo são bem-sucedidos ao
