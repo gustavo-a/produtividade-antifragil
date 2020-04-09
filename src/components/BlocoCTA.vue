@@ -7,8 +7,9 @@
         >
           <div class="w-full md:w-1/2 mb-8 md:mb-0">
             <p class="text-cafe-ardosia font-sans-secondary text-2xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-              suscipit harum.
+              Para aprender a arte de fazer mais com menos. Menos recursos,
+              menos tempo, menos softwares, menos equipe, apenas desenvolvendo o
+              que chamo de "olhar produtivo".
             </p>
           </div>
           <div
@@ -50,5 +51,9 @@ export default {
 .cta-bg {
   background: url('../assets/images/linha.png') no-repeat center right -10%,
     linear-gradient(#a4c546, #a4c546);
+
+  @media (max-width: 767px) {
+    background: #a4c546;
+  }
 }
 </style>
