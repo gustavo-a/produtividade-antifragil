@@ -61,7 +61,7 @@ section {
   @apply .text-white .text-left;
 
   &::after {
-    @apply .mr-auto .ml-0 .mt-2 .mb-8;
+    @apply .mr-auto .ml-0 .mt-2 .mb-8 .bg-white;
   }
 }
 </style>
