@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Produtividade Antifrágil',
-  siteUrl: 'https://jovial-lamarr-2883b4.netlify.com',
+  siteUrl: 'https://produtividadeantifragil.com.br',
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
