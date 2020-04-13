@@ -46,8 +46,9 @@
                 <div class="descricao">
                   5. As doenças da produtividade <br />
                   Os problemas de visão de mundo que impactam diretamente em
-                  nossa produtividade. O Olhar Produtivo – Uma proposta de visão
-                  de mundo com foco na produtividade <br /><br />
+                  nossa produtividade. <br />
+                  O Olhar Produtivo – Uma proposta de visão de mundo com foco na
+                  produtividade <br /><br />
                   6. O Podsumário The Leading Brain <br />
                   O que aprendemos com estudos científicos pode transformar
                   radicalmente a forma como exercemos liderança e abrimos

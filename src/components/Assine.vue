@@ -24,13 +24,13 @@
           <span>Total:R$234,50</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
-          <p class="mb-4 font-bold">
+          <p class="mb-4 font-bold text-justify">
             Um curso sobre Produtividade para quem quer ir além das ações
             táticas e mergulhar na estratégia: desenvolver um Olhar Produtivo.
             Provocativo, irreverente e com um material de apoio riquíssimo que
             em sua maior parte você não encontra aqui no Brasil.
           </p>
-          <ul class="lista">
+          <ul class="lista text-justify">
             <li>50% de desconto para a primeira turma</li>
             <li>
               Acesso ilimitado por 12 meses (vitalício para os assinantes do
