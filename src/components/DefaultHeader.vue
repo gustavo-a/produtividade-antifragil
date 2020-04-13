@@ -18,7 +18,7 @@
           <call-to-action
             filled="bege"
             border
-            link="https://hotm.art/oOizV2"
+            link="https://hotm.art/kZYsYG"
             size="sm"
             class="sm:mx-2 text-sm sm:text-base"
           >
