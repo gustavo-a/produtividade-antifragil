@@ -1,5 +1,2 @@
 User-Agent: *
-Disallow:
-Disallow: /404
-
-Sitemap: https://jovial-lamarr-2883b4.netlify.com/sitemap.xml
+Disallow: /
