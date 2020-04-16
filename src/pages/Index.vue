@@ -5,9 +5,9 @@
         <div class="container pb-12 bg-luciano mt-auto">
           <div class="flex pt-8 md:pt-32 pb-8 md:pb-20">
             <div class="sm:w-2/3 lg:w-2/5 px-4">
-              <div class="quote">
+              <h1 class="quote">
                 Como aumentar a sua performance em meio a adversidades.
-              </div>
+              </h1>
             </div>
             <div
               class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
@@ -180,7 +180,16 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Como aumentar sua performance em meio a adversidades'
+    title: 'Como aumentar sua performance em meio a adversidades',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content:
+          'Um curso sobre Produtividade para quem quer ir além das ações táticas e mergulhar na estratégia: desenvolver um Olhar Produtivo. Provocativo, irreverente e com um material de apoio riquíssimo que em sua maior parte você não encontra aqui no Brasil.'
+      }
+    ],
+    link: [{ rel: 'canonical', href: 'https://produtividadeantifragil.com.br' }]
   },
   components: {
     PlayButton,

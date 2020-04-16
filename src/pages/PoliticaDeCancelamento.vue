@@ -39,7 +39,20 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Política de Cancelamento'
+    title: 'Política de Cancelamento',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Nossa política de cancelamento.'
+      }
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://produtividadeantifragil.com.br/politica-de-cancelamento'
+      }
+    ]
   }
 }
 </script>

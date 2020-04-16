@@ -110,7 +110,20 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Dúvidas'
+    title: 'Dúvidas',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Tem dúvidas sobre o curso? Respondemos aqui!'
+      }
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://produtividadeantifragil.com.br/duvidas'
+      }
+    ]
   }
 }
 </script>

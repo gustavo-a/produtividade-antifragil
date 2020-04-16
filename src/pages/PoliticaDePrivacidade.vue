@@ -112,7 +112,20 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Política de Privacidade'
+    title: 'Política de Privacidade',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Nossa política de privacidade'
+      }
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://produtividadeantifragil.com.br/politica-de-privacidade'
+      }
+    ]
   }
 }
 </script>
