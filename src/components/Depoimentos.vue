@@ -88,6 +88,32 @@
             </div>
           </template>
         </Depoimento>
+        <Depoimento>
+          <template #imagem>
+            <g-image
+              src="~/assets/images/Bruno-Garschagen.jpg"
+              alt="Bruno Garschagen - Escritor"
+            />
+          </template>
+          <template #nome>
+            Bruno Garschagen
+          </template>
+          <template #descricao>
+            Cientista Político e Escritor
+          </template>
+          <template #conteudo>
+            <div class="video-container">
+              <iframe
+                width="956"
+                height="538"
+                src="https://www.youtube.com/embed/8G-e3hKrQc0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </template>
+        </Depoimento>
       </div>
     </div>
   </section>

@@ -1,10 +1,10 @@
 <template>
-  <div class="depoimentoWrapper w-11/12 sm:w-2/3 md:w-3/12 lg:w-1/4 xl:w-1/5">
+  <div class="depoimentoWrapper w-11/12 sm:w-2/3 md:w-5/12 lg:w-1/5">
     <Popup v-model="openDepoimento">
       <slot name="conteudo"> </slot>
     </Popup>
     <div
-      class="depoimento bg-guten-cinza-1 cursor-pointer overflow-hidden relative flex rounded-lg mb-8 md:m-0"
+      class="depoimento bg-guten-cinza-1 cursor-pointer overflow-hidden relative flex rounded-lg mb-16 lg:m-0"
       @click="openDepoimento = true"
     >
       <slot name="imagem" />
