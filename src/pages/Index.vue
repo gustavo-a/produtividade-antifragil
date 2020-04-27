@@ -33,7 +33,7 @@
           <div class="flex justify-start mb-32 md:mb-0 md:mt-0 px-4">
             <call-to-action
               filled="bege"
-              :link="$static.generalData.hotmartUrl | utmParameters"
+              :link="$static.generalData.hotmartUrl"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >
@@ -123,7 +123,7 @@
         <div class="flex justify-center">
           <call-to-action
             filled="bege"
-            :link="$static.generalData.hotmartUrl | utmParameters"
+            :link="$static.generalData.hotmartUrl"
             size="lg"
             class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >

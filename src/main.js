@@ -25,10 +25,4 @@ export default function(Vue, { router, head, isClient }) {
     router
   )
   head.htmlAttrs = { lang: 'pt-BR' }
-
-  if (isClient) {
-    Vue.filter('utmParameters', link => {
-      return `${link}${window.location.search}`
-    })
-  }
 }
