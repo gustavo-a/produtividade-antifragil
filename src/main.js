@@ -25,9 +25,8 @@ export default function(Vue, { router, head, isClient }) {
     router
   )
   head.htmlAttrs = { lang: 'pt-BR' }
-  // head.script.push({
-  //   src:
-  //     'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js',
-  //   body: true
-  // })
+
+  Vue.filter('utmParameters', link => {
+    return `${link}${window.location.search}`
+  })
 }

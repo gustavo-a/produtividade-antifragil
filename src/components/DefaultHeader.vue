@@ -18,7 +18,7 @@
           <call-to-action
             filled="bege"
             border
-            link="https://hotm.art/kZYsYG"
+            :link="$static.generalData.hotmartUrl | utmParameters"
             size="sm"
             class="sm:mx-2 text-sm sm:text-base"
           >
@@ -39,6 +39,14 @@
     </div>
   </header>
 </template>
+
+<static-query>
+query{
+  generalData(id: "1"){
+    hotmartUrl
+  }
+}
+</static-query>
 
 <script>
 import CTA from '~/components/shared/Cta'

@@ -3,7 +3,9 @@
     <div class="container px-4">
       <div class="flex justify-center mb-16">
         <h2 class="title-1">
-          <a href="https://hotm.art/kZYsYG">Assine agora</a>
+          <a :href="$static.generalData.hotmartUrl | utmParameters"
+            >Assine agora</a
+          >
         </h2>
       </div>
       <div class="flex flex-wrap md:justify-around">
@@ -56,7 +58,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            link="https://hotm.art/kZYsYG"
+            :link="$static.generalData.hotmartUrl | utmParameters"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >
@@ -67,6 +69,14 @@
     </div>
   </section>
 </template>
+
+<static-query>
+query{
+  generalData(id: "1"){
+    hotmartUrl
+  }
+}
+</static-query>
 
 <script>
 import CTA from '~/components/shared/Cta'

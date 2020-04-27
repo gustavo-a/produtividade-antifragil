@@ -17,7 +17,7 @@
           >
             <call-to-action
               filled="cinza-1"
-              link="https://hotm.art/kZYsYG"
+              :link="$static.generalData.hotmartUrl | utmParameters"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >
@@ -29,6 +29,14 @@
     </div>
   </section>
 </template>
+
+<static-query>
+query{
+  generalData(id: "1"){
+    hotmartUrl
+  }
+}
+</static-query>
 
 <script>
 import CTA from '~/components/shared/Cta.vue'
