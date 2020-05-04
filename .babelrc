@@ -3,9 +3,10 @@
     [
       "@babel/preset-env",
       {
-        "targets": {
-          "browsers": ["> 1%", "last 2 versions", "ie 11"]
-        },
+        "include": [
+          "@babel/plugin-transform-spread",
+          "@babel/plugin-transform-classes"
+        ],
         "useBuiltIns": "entry",
         "corejs": 2
       }
@@ -15,8 +16,9 @@
   "ignore": ["node_modules"],
   "plugins": [
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
-    "@babel/plugin-transform-classes",
-    "@babel/plugin-proposal-object-rest-spread",
-    "@babel/plugin-transform-spread"
+    [
+      "@babel/plugin-proposal-object-rest-spread",
+      { "loose": true, "useBuiltIns": true }
+    ]
   ]
 }
