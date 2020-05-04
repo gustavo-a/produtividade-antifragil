@@ -1,5 +1,22 @@
 <template>
   <header class="bg-cafe-meia-noite">
+    <Countdown
+      :starttime="new Date()"
+      endtime="May 4, 2020 23:59:59"
+      trans='{  
+         "day":"Dias",
+         "hours":"Horas",
+         "minutes":"Minutos",
+         "seconds":"Segundos",
+         "expired":"Event has been expired.",
+         "running":"Para encerrarmos as vendas",
+         "upcoming":"Till start of event.",
+         "status": {
+            "expired":"Expired",
+            "running":"Running",
+            "upcoming":"Future"
+           }}'
+    />
     <div class="container bg-linha">
       <div class="flex flex-wrap justify-between py-4">
         <g-link to="/" class="px-4 w-full sm:w-1/2" id="logo-header">
@@ -50,13 +67,15 @@ query{
 
 <script>
 import CTA from '~/components/shared/Cta'
+import Countdown from '~/components/shared/Countdown'
 import User from '~/assets/images/user.svg'
 
 export default {
   name: 'DefaultHeader',
   components: {
     'call-to-action': CTA,
-    User
+    User,
+    Countdown
   }
 }
 </script>
