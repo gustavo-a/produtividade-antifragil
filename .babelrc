@@ -4,13 +4,7 @@
       "@babel/preset-env",
       {
         "targets": {
-          "browsers": [
-            "Chrome >= 52",
-            "FireFox >= 44",
-            "Safari >= 7",
-            "Explorer 11",
-            "last 4 Edge versions"
-          ]
+          "browsers": ["> 1%", "last 2 versions", "ie 11"]
         },
         "useBuiltIns": "entry",
         "corejs": 2
@@ -22,6 +16,7 @@
   "plugins": [
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
     "@babel/plugin-transform-classes",
-    "@babel/plugin-proposal-object-rest-spread"
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-spread"
   ]
 }
