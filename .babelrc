@@ -21,6 +21,7 @@
   "ignore": ["node_modules"],
   "plugins": [
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
-    "@babel/plugin-transform-classes"
+    "@babel/plugin-transform-classes",
+    "@babel/plugin-proposal-object-rest-spread"
   ]
 }
