@@ -7,9 +7,10 @@
 // tailwind config
 
 const tailwind = require('tailwindcss')
+const autoprefixer = require('autoprefixer')
 const purgecss = require('@fullhuman/postcss-purgecss')
 
-const postcssPlugins = [tailwind()]
+const postcssPlugins = [tailwind(), autoprefixer()]
 
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
