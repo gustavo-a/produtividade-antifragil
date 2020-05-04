@@ -2,7 +2,7 @@
   <div class="countdown">
     <div class="container">
       <div class="flex justify-center items-center mb-2">
-        <p>A pré-venda está acabando!</p>
+        <p>As inscrições serão encerradas em:</p>
       </div>
       <div class="flex justify-center items-center">
         <div class="px-4">
