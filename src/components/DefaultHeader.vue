@@ -41,10 +41,10 @@
           >
             <span class="text-cafe-ardosia">Inscreva-se</span>
           </call-to-action>
-          <!-- http://membros.produtividadeantifragil.com.br -->
+          <!-- https://produtividadeantifragil.club.hotmart.com -->
           <call-to-action
             border
-            link="http://membros.produtividadeantifragil.com.br"
+            link="https://produtividadeantifragil.club.hotmart.com"
             size="sm"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
             style="display:contents"
