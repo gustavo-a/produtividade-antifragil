@@ -20,7 +20,12 @@ export default function(Vue, { router, head, isClient }) {
   Vue.use(
     VueGtag,
     {
-      config: { id: 'UA-163011956-1' }
+      config: { id: 'UA-163011956-1' },
+      params: {
+        linker: {
+          domains: ['pay.hotmart.com']
+        }
+      }
     },
     router
   )
