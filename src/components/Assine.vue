@@ -19,9 +19,9 @@
           <span>Por apenas:</span>
           <div class="grid font-sans-secondary text-cafe-verde-amarelado my-4">
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 23,90</div>
+            <div class="text-5xl">R$ 25,90</div>
           </div>
-          <span>Total:R$239,00</span>
+          <span>Total:R$259,00</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold text-justify">
