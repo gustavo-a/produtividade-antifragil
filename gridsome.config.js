@@ -32,6 +32,9 @@ module.exports = {
   },
   plugins: [
     {
+      use: 'gridsome-plugin-modal'
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000 // default

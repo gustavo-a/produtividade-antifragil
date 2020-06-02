@@ -17,12 +17,6 @@ if (process.isClient) {
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-
-  if (isClient) {
-    const VModal = require('vue-js-modal')
-    Vue.use(VModal)
-  }
-
   Vue.use(
     VueGtag,
     {
