@@ -17,6 +17,25 @@
             "upcoming":"Future"
            }}'
     /> -->
+    <ClientOnly>
+      <modal
+        name="modal-video"
+        classes="p-8"
+        height="auto"
+        @before-open="modalVideoData"
+      >
+        <div class="video-container">
+          <iframe
+            width="956"
+            height="538"
+            :src="currentVideo"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </modal>
+    </ClientOnly>
     <div class="container bg-linha">
       <div class="flex flex-wrap justify-between py-4">
         <g-link to="/" class="px-4 w-full sm:w-1/2" id="logo-header">
@@ -76,6 +95,16 @@ export default {
     'call-to-action': CTA,
     User,
     Countdown
+  },
+  data() {
+    return {
+      currentVideo: null
+    }
+  },
+  methods: {
+    modalVideoData(event) {
+      this.currentVideo = event.params.videoLink
+    }
   }
 }
 </script>

@@ -134,9 +134,10 @@
     </section>
     <!-- Outras sessões -->
     <Autor />
+    <Depoimentos />
     <Modulos />
     <BlocoCTA />
-    <Depoimentos />
+    <Alunos />
 
     <section class="py-32">
       <div class="container px-4">
@@ -180,6 +181,7 @@ import CTA from '~/components/shared/Cta'
 import Autor from '~/components/Autor'
 import Modulos from '~/components/Modulos'
 import Depoimentos from '~/components/Depoimentos'
+import Alunos from '~/components/Alunos'
 import Assine from '~/components/Assine'
 import Popup from '~/components/shared/Popup'
 import BlocoCTA from '~/components/BlocoCTA'
@@ -207,6 +209,7 @@ export default {
     Modulos,
     Autor,
     Depoimentos,
+    Alunos,
     BlocoCTA,
     Assine,
     Popup

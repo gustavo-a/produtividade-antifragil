@@ -11,6 +11,7 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-gtm": "^0.1.1",
     "vue-gtag": "^1.2.1",
+    "vue-js-modal": "^2.0.0-rc.3",
     "webfontloader": "^1.6.28",
     "wysiwyg.css": "^0.0.3"
   },

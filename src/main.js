@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueGtag from 'vue-gtag'
+import VModal from 'vue-js-modal'
 
 if (process.isClient) {
   const WebFont = require('webfontloader')
@@ -17,6 +18,11 @@ if (process.isClient) {
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  if (isClient) {
+    Vue.use(VModal)
+  }
+
   Vue.use(
     VueGtag,
     {
