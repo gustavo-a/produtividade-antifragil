@@ -3,7 +3,6 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueGtag from 'vue-gtag'
-import VModal from 'vue-js-modal'
 
 if (process.isClient) {
   const WebFont = require('webfontloader')
@@ -20,6 +19,7 @@ export default function(Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
 
   if (isClient) {
+    const VModal = require('vue-js-modal')
     Vue.use(VModal)
   }
 
