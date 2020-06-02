@@ -1,11 +1,8 @@
 <template>
-  <div class="depoimentoWrapper w-11/12 sm:w-2/3 md:w-3/12 lg:w-1/4 xl:w-1/5">
-    <Popup v-model="openDepoimento">
-      <slot name="conteudo"> </slot>
-    </Popup>
+  <div class="depoimentoWrapper w-11/12 sm:w-2/3 md:w-5/12 lg:w-1/5">
     <div
-      class="depoimento bg-guten-cinza-1 cursor-pointer overflow-hidden relative flex rounded-lg mb-8 md:m-0"
-      @click="openDepoimento = true"
+      class="depoimento bg-guten-cinza-1 cursor-pointer overflow-hidden relative flex rounded-lg mb-16 lg:m-0"
+      @click="abrirDepoimento"
     >
       <slot name="imagem" />
       <div class="absolute top-0 bottom-0 table m-auto w-full z-10">
@@ -33,13 +30,16 @@ import Popup from '~/components/shared/Popup'
 
 export default {
   name: 'Depoimento',
+  props: {
+    videoLink: String
+  },
   components: {
     PlayButton,
     Popup
   },
-  data() {
-    return {
-      openDepoimento: false
+  methods: {
+    abrirDepoimento() {
+      this.$modal.show('modal-video', { videoLink: this.videoLink })
     }
   }
 }

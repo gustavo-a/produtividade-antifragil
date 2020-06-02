@@ -52,7 +52,7 @@
               Dúvidas
             </g-link>
             <call-to-action
-              link="http://membros.produtividadeantifragil.com.br"
+              link="https://produtividadeantifragil.club.hotmart.com"
               size="lg"
               border
             >

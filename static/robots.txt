@@ -1,2 +1,5 @@
 User-Agent: *
-Disallow: /
+Disallow:
+Disallow: /404
+
+Sitemap: https://produtividadeantifragil.com.br/sitemap.xml

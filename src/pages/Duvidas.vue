@@ -18,7 +18,13 @@
             <li>
               <b>Qual a duração do curso?</b><br />
               <p>
-                O curso sobre terá 5 semanas de duração.
+                O curso sobre terá 6 semanas de duração. O curso é composto de
+                seis módulos, um por semana, com aulas pré-gravadas,
+                disponibilizadas em vídeo, áudio e PDF, que você pode consumir
+                quando, como e quanto quiser. No final da semana acontecerá uma
+                Live na qual Luciano Pires repassará os conteúdos e interagirá
+                com os participantes, respondendo perguntas e complementando os
+                assuntos. Serão no total seis Lives.
               </p>
             </li>
 
@@ -110,7 +116,20 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Dúvidas'
+    title: 'Dúvidas',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Tem dúvidas sobre o curso? Respondemos aqui!'
+      }
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://produtividadeantifragil.com.br/duvidas'
+      }
+    ]
   }
 }
 </script>

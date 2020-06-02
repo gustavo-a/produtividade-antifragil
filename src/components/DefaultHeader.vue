@@ -1,5 +1,41 @@
 <template>
   <header class="bg-cafe-meia-noite">
+    <!-- <Countdown
+      :starttime="new Date()"
+      endtime="May 5, 2020 0:10:00"
+      trans='{  
+         "day":"Dias",
+         "hours":"Horas",
+         "minutes":"Minutos",
+         "seconds":"Segundos",
+         "expired":"Event has been expired.",
+         "running":"Para encerrarmos as vendas",
+         "upcoming":"Till start of event.",
+         "status": {
+            "expired":"Expired",
+            "running":"Running",
+            "upcoming":"Future"
+           }}'
+    /> -->
+    <ClientOnly>
+      <modal
+        name="modal-video"
+        classes="p-8"
+        height="auto"
+        @before-open="modalVideoData"
+      >
+        <div class="video-container">
+          <iframe
+            width="956"
+            height="538"
+            :src="currentVideo"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </modal>
+    </ClientOnly>
     <div class="container bg-linha">
       <div class="flex flex-wrap justify-between py-4">
         <g-link to="/" class="px-4 w-full sm:w-1/2" id="logo-header">
@@ -18,16 +54,16 @@
           <call-to-action
             filled="bege"
             border
-            link="https://hotm.art/oOizV2"
+            :link="$static.generalData.hotmartUrl"
             size="sm"
             class="sm:mx-2 text-sm sm:text-base"
           >
             <span class="text-cafe-ardosia">Inscreva-se</span>
           </call-to-action>
-          <!-- http://membros.produtividadeantifragil.com.br -->
+          <!-- https://produtividadeantifragil.club.hotmart.com -->
           <call-to-action
             border
-            link="http://membros.produtividadeantifragil.com.br"
+            link="https://produtividadeantifragil.club.hotmart.com"
             size="sm"
             class="ml-2 sm:mx-2 text-sm sm:text-base"
             style="display:contents"
@@ -40,15 +76,35 @@
   </header>
 </template>
 
+<static-query>
+query{
+  generalData(id: "1"){
+    hotmartUrl
+  }
+}
+</static-query>
+
 <script>
 import CTA from '~/components/shared/Cta'
+import Countdown from '~/components/shared/Countdown'
 import User from '~/assets/images/user.svg'
 
 export default {
   name: 'DefaultHeader',
   components: {
     'call-to-action': CTA,
-    User
+    User,
+    Countdown
+  },
+  data() {
+    return {
+      currentVideo: null
+    }
+  },
+  methods: {
+    modalVideoData(event) {
+      this.currentVideo = event.params.videoLink
+    }
   }
 }
 </script>

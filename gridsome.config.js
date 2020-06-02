@@ -7,19 +7,28 @@
 // tailwind config
 
 const tailwind = require('tailwindcss')
+const autoprefixer = require('autoprefixer')
 const purgecss = require('@fullhuman/postcss-purgecss')
 
-const postcssPlugins = [tailwind()]
+require('core-js')
+require('regenerator-runtime')
+
+const postcssPlugins = [tailwind(), autoprefixer()]
 
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
   siteName: 'Produtividade Antifrágil',
-  siteUrl: 'https://jovial-lamarr-2883b4.netlify.com',
+  siteUrl: 'https://produtividadeantifragil.com.br',
   chainWebpack: config => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
-    svgRule.use('vue-svg-loader').loader('vue-svg-loader')
+    svgRule
+      .use('babel-loader')
+      .loader('babel-loader')
+      .end()
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
   },
   plugins: [
     {
@@ -32,7 +41,7 @@ module.exports = {
       use: 'gridsome-plugin-gtm',
       options: {
         id: 'GTM-5C4VZBW', //change
-        enabled: false, //change
+        enabled: true, //change
         debug: false
       }
     }

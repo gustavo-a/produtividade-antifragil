@@ -5,9 +5,9 @@
         <div class="container pb-12 bg-luciano mt-auto">
           <div class="flex pt-8 md:pt-32 pb-8 md:pb-20">
             <div class="sm:w-2/3 lg:w-2/5 px-4">
-              <div class="quote">
+              <h1 class="quote">
                 Como aumentar a sua performance em meio a adversidades.
-              </div>
+              </h1>
             </div>
             <div
               class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
@@ -33,7 +33,7 @@
           <div class="flex justify-start mb-32 md:mb-0 md:mt-0 px-4">
             <call-to-action
               filled="bege"
-              link="https://hotm.art/oOizV2"
+              :link="$static.generalData.hotmartUrl"
               size="lg"
               class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
             >
@@ -123,7 +123,7 @@
         <div class="flex justify-center">
           <call-to-action
             filled="bege"
-            link="https://hotm.art/oOizV2"
+            :link="$static.generalData.hotmartUrl"
             size="lg"
             class="shadow-2xl transform transition-transform duration-300 hover:scale-110"
           >
@@ -134,9 +134,10 @@
     </section>
     <!-- Outras sessões -->
     <Autor />
+    <Depoimentos />
     <Modulos />
     <BlocoCTA />
-    <Depoimentos />
+    <Alunos />
 
     <section class="py-32">
       <div class="container px-4">
@@ -163,6 +164,14 @@
   </Layout>
 </template>
 
+<static-query>
+query{
+  generalData(id: "1"){
+    hotmartUrl
+  }
+}
+</static-query>
+
 <script>
 import PlayButton from '~/assets/images/play.svg'
 import RightArrow from '~/assets/images/right-arrow.svg'
@@ -172,6 +181,7 @@ import CTA from '~/components/shared/Cta'
 import Autor from '~/components/Autor'
 import Modulos from '~/components/Modulos'
 import Depoimentos from '~/components/Depoimentos'
+import Alunos from '~/components/Alunos'
 import Assine from '~/components/Assine'
 import Popup from '~/components/shared/Popup'
 import BlocoCTA from '~/components/BlocoCTA'
@@ -180,7 +190,16 @@ import 'wysiwyg.css'
 
 export default {
   metaInfo: {
-    title: 'Como aumentar sua performance em meio a adversidades'
+    title: 'Como aumentar sua performance em meio a adversidades',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content:
+          'Um curso sobre Produtividade para quem quer ir além das ações táticas e mergulhar na estratégia: desenvolver um Olhar Produtivo. Provocativo, irreverente e com um material de apoio riquíssimo que em sua maior parte você não encontra aqui no Brasil.'
+      }
+    ],
+    link: [{ rel: 'canonical', href: 'https://produtividadeantifragil.com.br' }]
   },
   components: {
     PlayButton,
@@ -190,6 +209,7 @@ export default {
     Modulos,
     Autor,
     Depoimentos,
+    Alunos,
     BlocoCTA,
     Assine,
     Popup

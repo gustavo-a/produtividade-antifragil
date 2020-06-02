@@ -3,7 +3,7 @@
     <div class="container px-4">
       <div class="flex justify-center mb-16">
         <h2 class="title-1">
-          <a href="https://hotm.art/oOizV2">Assine agora</a>
+          <a :href="$static.generalData.hotmartUrl">Assine agora</a>
         </h2>
       </div>
       <div class="flex flex-wrap md:justify-around">
@@ -19,9 +19,9 @@
           <span>Por apenas:</span>
           <div class="grid font-sans-secondary text-cafe-verde-amarelado my-4">
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 23,45</div>
+            <div class="text-5xl">R$ 29,90</div>
           </div>
-          <span>Total:R$234,50</span>
+          <span>Total:R$299,00</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold text-justify">
@@ -56,7 +56,7 @@
           </ul>
           <call-to-action
             filled="bege"
-            link="https://hotm.art/oOizV2"
+            :link="$static.generalData.hotmartUrl"
             size="lg"
             class="shadow-2xl mt-6 transform transition-transform duration-300 hover:scale-110"
           >
@@ -67,6 +67,14 @@
     </div>
   </section>
 </template>
+
+<static-query>
+query{
+  generalData(id: "1"){
+    hotmartUrl
+  }
+}
+</static-query>
 
 <script>
 import CTA from '~/components/shared/Cta'

@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import VueGtag from 'vue-gtag'
+import VModal from 'vue-js-modal'
 
 if (process.isClient) {
   const WebFont = require('webfontloader')
@@ -17,17 +18,24 @@ if (process.isClient) {
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  if (isClient) {
+    Vue.use(VModal)
+  }
+
   Vue.use(
     VueGtag,
     {
-      config: { id: 'UA-163011956-1' }
+      config: { id: 'UA-163011956-1' },
+      params: {
+        linker: {
+          domains: ['produtividadeantifragil.com.br', 'pay.hotmart.com'],
+          accept_incoming: true,
+          decorate_forms: true
+        }
+      }
     },
     router
   )
   head.htmlAttrs = { lang: 'pt-BR' }
-  // head.script.push({
-  //   src:
-  //     'https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js',
-  //   body: true
-  // })
 }

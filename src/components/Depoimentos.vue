@@ -10,7 +10,7 @@
         </h2>
       </div>
       <div class="flex flex-wrap justify-center md:justify-evenly">
-        <Depoimento>
+        <Depoimento video-link="https://www.youtube.com/embed/J41n4b_JWy0">
           <template #imagem>
             <g-image
               src="~/assets/images/Foto_Cerbasi1.jpg"
@@ -23,20 +23,8 @@
           <template #descricao>
             Economista
           </template>
-          <template #conteudo>
-            <div class="video-container">
-              <iframe
-                width="956"
-                height="538"
-                src="https://www.youtube.com/embed/J41n4b_JWy0"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </template>
         </Depoimento>
-        <Depoimento>
+        <Depoimento video-link="https://www.youtube.com/embed/y9KF8VuPXhM">
           <template #imagem>
             <g-image
               src="~/assets/images/Adalberto-Piotto.jpg"
@@ -49,20 +37,8 @@
           <template #descricao>
             Jornalista
           </template>
-          <template #conteudo>
-            <div class="video-container">
-              <iframe
-                width="956"
-                height="538"
-                src="https://www.youtube.com/embed/y9KF8VuPXhM"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </template>
         </Depoimento>
-        <Depoimento>
+        <Depoimento video-link="https://www.youtube.com/embed/OjkP_Kibylk">
           <template #imagem>
             <g-image
               src="~/assets/images/dado-schneider.jpg"
@@ -88,6 +64,20 @@
             </div>
           </template>
         </Depoimento>
+        <Depoimento video-link="https://www.youtube.com/embed/8G-e3hKrQc0">
+          <template #imagem>
+            <g-image
+              src="~/assets/images/Bruno-Garschagen.jpg"
+              alt="Bruno Garschagen - Escritor"
+            />
+          </template>
+          <template #nome>
+            Bruno Garschagen
+          </template>
+          <template #descricao>
+            Cientista Político e Escritor
+          </template>
+        </Depoimento>
       </div>
     </div>
   </section>
@@ -99,6 +89,9 @@ export default {
   name: 'Depoimentos',
   components: {
     Depoimento
+  },
+  methods: {
+    modalData() {}
   }
 }
 </script>
