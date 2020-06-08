@@ -32,4 +32,9 @@ export default function(Vue, { router, head, isClient }) {
     router
   )
   head.htmlAttrs = { lang: 'pt-BR' }
+  head.script.push({
+    src:
+      'https://d335luupugsy2.cloudfront.net/js/loader-scripts/8999f600-d92f-4cd1-a4d5-d9ac204a6a18-loader.js',
+    body: true
+  })
 }

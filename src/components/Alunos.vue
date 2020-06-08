@@ -161,7 +161,8 @@ export default {
       type: 'slider',
       perView: 4,
       gap: 100,
-      autoplay: 4000,
+      autoplay: 2000,
+      bound: true,
       peek: { before: 0, after: 0 },
       breakpoints: {
         1300: {
