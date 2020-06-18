@@ -1,8 +1,8 @@
 <template>
   <header class="bg-cafe-meia-noite">
-    <!-- <Countdown
+    <Countdown
       :starttime="new Date()"
-      endtime="May 5, 2020 0:10:00"
+      endtime="Jun 19, 2020 0:00:00"
       trans='{  
          "day":"Dias",
          "hours":"Horas",
@@ -16,7 +16,7 @@
             "running":"Running",
             "upcoming":"Future"
            }}'
-    /> -->
+    />
     <div class="container bg-linha">
       <div class="flex flex-wrap justify-between py-4">
         <g-link to="/" class="px-4 w-full sm:w-1/2" id="logo-header">
