@@ -2,7 +2,7 @@
   <header class="bg-cafe-meia-noite">
     <Countdown
       :starttime="new Date()"
-      endtime="Jun 19, 2020 0:00:00"
+      endtime="Jun 19, 2020 0:59:59"
       trans='{  
          "day":"Dias",
          "hours":"Horas",
