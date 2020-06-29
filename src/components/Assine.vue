@@ -11,17 +11,17 @@
           class="w-full md:w-1/2 lg:w-1/3 rounded-lg bg-gray-100 text-center px-4 py-10 self-center mb-16 md:mb-0"
         >
           <Time class="m-auto mb-4" />
-          <div
+          <!--  <div
             class="font-sans-secondary text-cafe-verde-amarelado text-3xl mb-2"
           >
             De R$ <span class="line-through">469,00</span>
-          </div>
+          </div> -->
           <span>Por apenas:</span>
           <div class="grid font-sans-secondary text-cafe-verde-amarelado my-4">
             <div class="text-2xl">10x de</div>
-            <div class="text-5xl">R$ 29,90</div>
+            <div class="text-5xl">R$ 96,70</div>
           </div>
-          <span>Total:R$299,00</span>
+          <span>Total:R$967,00</span>
         </div>
         <div class="w-full md:w-1/3 text-white">
           <p class="mb-4 font-bold text-justify">
