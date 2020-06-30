@@ -31,7 +31,6 @@
             em sua maior parte você não encontra aqui no Brasil.
           </p>
           <ul class="lista text-justify">
-            <li>50% de desconto para a primeira turma</li>
             <li>
               Acesso ilimitado por 12 meses (vitalício para os assinantes do
               Café Brasil Premium)
