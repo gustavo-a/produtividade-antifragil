@@ -14,7 +14,8 @@ module.exports = {
       cafe: {
         ardosia: '#613EA7',
         'meia-noite': '#322153',
-        'verde-amarelado': '#A4C546'
+        'verde-amarelado': '#A4C546',
+        vermelho: '#D52842'
       },
       guten: {
         bege: '#B29965',
