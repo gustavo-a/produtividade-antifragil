@@ -3,14 +3,14 @@
     <div class="bg-cafe-meia-noite">
       <section class="bg-luciano-wrapper flex">
         <div class="container pb-12 bg-luciano mt-auto">
-          <div class="flex pt-8 md:pt-32 pb-8 md:pb-20">
-            <div class="sm:w-2/3 lg:w-2/5 px-4">
+          <div class="flex">
+            <div class="sm:w-2/3 lg:w-2/5 px-4 pt-8 md:pt-32 pb-8 md:pb-20">
               <h1 class="quote">
                 Como aumentar a sua performance em meio a adversidades.
               </h1>
             </div>
             <div
-              class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle"
+              class="hidden md:w-1/3 lg:w-1/2 px-4 md:flex justify-center align-middle border border-cafe-verde-amarelado rounded"
             >
               <Popup v-model="videoPopup">
                 <div class="video-container">
@@ -26,7 +26,11 @@
               </Popup>
               <button @click="videoPopup = !videoPopup">
                 <PlayButton />
-                <div class="sr-only">Assistir ao Vídeo</div>
+                <p
+                  class="bg-cafe-verde-amarelado text-cafe-ardosia font-bold italic text-xl inline-block rounded px-2"
+                >
+                  PLAY
+                </p>
               </button>
             </div>
           </div>
